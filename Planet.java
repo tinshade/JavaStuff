@@ -1,9 +1,9 @@
 class Planet {
-	void revolve(){
-		System.out.println("Revolved");
+	void revolve(int n){
+		System.out.println("Revolved "+n+" times");
 	}
 	public static void main(String[] args){
 		Planet earth = new Planet();
-		earth.revolve();
+		earth.revolve(10);
 	}
 }
